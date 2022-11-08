@@ -10,6 +10,7 @@ IndentWidth: 4
 AccessModifierOffset: -4
 NamespaceIndentation: All
 IndentPPDirectives: BeforeHash
+IndentCaseLabels: true
 
 # Brace Wrapping
 BreakBeforeBraces: Custom
@@ -38,8 +39,6 @@ AlignEscapedNewlines: Left
 AlignOperands: AlignAfterOperator
 PointerAlignment: Left
 AlignTrailingComments: true
-# AlignArrayOfStructures: Left
-# InsertTrailingCommas: Wrapped
 
 # Short Statements
 AllowShortIfStatementsOnASingleLine: AllIfsAndElse
@@ -51,6 +50,7 @@ AllowShortBlocksOnASingleLine: Always
 # Use of Spaces
 SpaceBeforeParens: Never
 Cpp11BracedListStyle: true
+SeparateDefinitionBlocks: Always
 
 # Empty Lines
 EmptyLineBeforeAccessModifier: Never
